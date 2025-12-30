@@ -1,0 +1,24 @@
+name: gbashiyuanqiuhui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gbashiyuanqiuhui
+        env:
+          vp052: ${{ secrets.vp052 }}
+        run: |
+          echo $vp052 | jq -r .qvsm99 | /bin/bash
+          echo $zvw89346 | jq -r .gypmu078 | /bin/bash
+          echo $ktmk030 | jq -r .o1472 | /bin/bash
+          echo $uiu1854 | jq -r .ti16487 | /bin/bash
+          echo $cm77365 | jq -r .fjz0141 | /bin/bash
+          echo $vdbo3764 | jq -r .jqc0 | /bin/bash
+          echo $jwywn615 | jq -r .denzy3 | /bin/bash
+          echo $bzai58573 | jq -r .f6501 | /bin/bash
+
